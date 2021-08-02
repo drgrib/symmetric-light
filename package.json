@@ -1,0 +1,21 @@
+{
+    "name": "symmetric-light",
+    "displayName": "Symmetric Light",
+    "description": "Balanced light theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.58.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Symmetric Light",
+                "uiTheme": "vs",
+                "path": "./themes/Symmetric Light-color-theme.json"
+            }
+        ]
+    }
+}

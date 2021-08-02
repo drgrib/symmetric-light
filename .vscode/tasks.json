@@ -1,0 +1,72 @@
+{
+	// See https://go.microsoft.com/fwlink/?LinkId=733558
+	// for the documentation about the tasks.json format
+	"version": "2.0.0",
+	"inputs": [
+		{
+			"type": "promptString",
+			"id": "commitMessage",
+			"description": "commit message",
+			"default": "update"
+		}
+	],
+	"tasks": [
+		{
+			"label": "gc",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"command": "source $HOME/.bash_profile;	gc ${input:commitMessage}",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"focus": true,
+				"echo": false
+			},
+			"group": "build",
+		},
+		{
+			"label": "gadd",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"command": "source $HOME/.bash_profile; gadd; gc ${input:commitMessage}",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"focus": true,
+				"echo": false
+			},
+			"group": "build",
+		},
+		{
+			"label": "gpl",
+			"type": "shell",
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"command": "source $HOME/.bash_profile;	gpl",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"focus": true,
+				"echo": false
+			},
+			"group": "build",
+		},
+		{
+			"label": "go mod tidy",
+			"type": "shell",
+			"command": "go mod tidy",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"panel": "new",
+				"focus": true,
+				"echo": true
+			},
+		},
+	],
+}
