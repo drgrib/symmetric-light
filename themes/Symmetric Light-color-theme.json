@@ -568,7 +568,8 @@
 				"string"
 			],
 			"settings": {
-				"foreground": "#FFC400",
+				"foreground": "#FFAB03",
+				// "foreground": "#FFC400",
 				// "foreground": "#fdcf37",
 				// "foreground": "#e9c705",
 				"fontStyle": "italic"
