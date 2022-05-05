@@ -6,9 +6,9 @@
 		// bracket colorization
 		"editorBracketHighlight.foreground1": "#101317",
 		"editorBracketHighlight.foreground2": "#FA8D3E",
-		"editorBracketHighlight.foreground3": "#F0727D",
-		"editorBracketHighlight.foreground4": "#03B4D3",
-		"editorBracketHighlight.foreground5": "#10C295",
+		"editorBracketHighlight.foreground3": "#10C295",
+		"editorBracketHighlight.foreground4": "#F0727D",
+		"editorBracketHighlight.foreground5": "#03B4D3",
 		"editorBracketHighlight.foreground6": "#FFAB03",
 		// "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
 		
