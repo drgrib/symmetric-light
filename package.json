@@ -2,7 +2,7 @@
     "name": "symmetric-light",
     "displayName": "Symmetric Light",
     "description": "Light theme for VS Code that attempts to balance between a pleasant diversity of colors",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.58.0"
     },
