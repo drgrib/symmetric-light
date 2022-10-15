@@ -11,8 +11,6 @@
 		"editorBracketHighlight.foreground5": "#03B4D3",
 		"editorBracketHighlight.foreground6": "#FFAB03",
 		// "editorBracketHighlight.unexpectedBracket.foreground": "#db6165",
-		
-
 		"activityBar.background": "#fafafa",
 		"activityBar.border": "#fafafa",
 		"activityBar.foreground": "#8a9199cc",
@@ -56,7 +54,7 @@
 		"editorCodeLens.foreground": "#abb0b6",
 		"editorCursor.foreground": "#ff9940",
 		"editorError.foreground": "#f51818",
-		"editorGroup.background": "#ffffff",
+		// "editorGroup.background": "#ffffff",
 		"editorGroup.border": "#8a91991a",
 		"editorGroupHeader.noTabsBackground": "#fafafa",
 		"editorGroupHeader.tabsBackground": "#fafafa",
